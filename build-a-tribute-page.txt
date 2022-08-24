@@ -1,0 +1,70 @@
+** start of undefined **
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+  <body>
+    
+  <main id="main">
+ 
+  <header id="header">
+    <h1 id="title">High King Margot</h1>
+    <p id="tribute-info">The greatest king to have ever kinged</p>
+    </header>
+  
+  <div class="divider"> </div>
+
+  <figure id="img-div">
+    <img id ="image" src="http://www.eyehateheels.com/wp-content/uploads/2018/02/margot-in-syfys-the-magicians.png" alt="High King Margo">
+    <figcaption id="img-caption">High King Margot <i>source: eyehateheels.com</i></figcaption>
+  </figure>
+  
+  <div class="divider"></div>
+  <a id="tribute-link" href="https://www.imdb.com/title/tt4254242/" target="_blank">Learn More</a>
+  
+
+   </main>
+  </body>
+
+** end of undefined **
+
+** start of undefined **
+
+header{
+  top:0;
+background-color: #ef523178;
+align-items: center;
+}
+img{
+  display: block;
+max-width: 100%;
+}
+main, h1, p, header{
+  
+  display: flex;
+  flex-flow: column;
+}
+
+.divider{
+  background-color: black;
+  display: block;
+  height: 2px;
+  border-radius: .2em 4em;
+  width: 100%;
+  padding: 3px;
+}
+
+#tribute-link{
+  align-self: center;
+  display: flex;
+  color: black;
+  
+border-radius: 3px;  text-decoration:none;
+background-color: #3f3f4d55;
+  padding: 3px;
+margin-top:3px;
+width: fit-content;
+}
+
+** end of undefined **
+

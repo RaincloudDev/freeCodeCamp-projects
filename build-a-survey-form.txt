@@ -1,0 +1,78 @@
+** start of undefined **
+
+<head>
+  <meta charset="utf-8">
+  <title>Character Sheet</title>
+  <link rel="stylesheet" href="styles.css"
+</head>
+<body >
+    <h1 id="title">Player</h1>
+    <p id="description">Short Description</p>
+<section>
+    <form id="survey-form">
+      <label id="name-label">Name: <input id="name" type="text" placeholder="John Doe" required/></label>
+      <label id="email-label">Email: <input id="email" type="email" placeholder="jdoe@email.com" required/></label>
+      <label id="number-label">Age: <input id="number" min=1 max=120 type="number" placeholder="34"/></label>
+</form>
+      </section>
+
+      <section>
+        <h1>Character</h1>
+       <form id="survey-form"> 
+         <label id="character-name-label">Character Name: 
+          <input type="text" placeholder="Bah`len" required />
+        <label id="character-title-label">Title: 
+          <input type="text" placeholder="the Vile"/>
+          </label>
+      <section >
+        <label id="dropdown-label">Alignment
+        <select id="dropdown">
+          <option value="">Choose One</option>
+          <option value=1>Chaotic Evil</option>
+          <option value=2>Lawful Evil</option>
+          <option value=3>Chaotic neutral</option>
+          <option value=4>Lawful Neutral</option>
+          <option value=5>Chaotic Good</option>
+          <option value=6>Lawful Good</option>
+          </select>
+  </section>
+  <section>
+          <label id="survey-form">Class
+            <input type="radio" name="radio-button" value="fighter"/> Fighter
+            <input type="radio" name="radio-button" value= "barbarian"/> Barbarian
+            <input type="radio" name="radio-button" value="ranger"/> Ranger
+            <input type="radio" name="radio-button" value="rogue"/> Rogue
+            <input type="radio" name="radio-button" value="druid"/> Druid
+            <input type="radio" name="radio-button"/ value="mage"> Mage
+            <input type="radio" name="radio-button"/ value="druid"> Druid
+            <input type="radio" name="radio-button" value="cleric"/> Cleric
+</section>
+<section>
+<label id="checkbox-label">Trained Skills
+  <input type="checkbox" value="Stealth"/> Stealth
+  <input type="checkbox" value="Perception"/> Perception
+  <input type="checkbox" value="Athletics"/> Athletics
+  <input type="checkbox" value="Lockpicking"/> Lockpicking
+  <input type="checkbox" value="Herbalism"/> Herbalism
+  <input type="checkbox" value="Heal"/> Heal
+  </label>
+  </section>
+  <section>
+  <label id="textarea-label">Character Bio <textarea rows:2 cols: 30 placeholder="Bah`len was always into the dark arts..."></textarea>
+  </section>
+  <section>
+  <input id="submit" type="submit" value="Submit" >
+             </section>
+            </form>
+           
+    </body>
+  </html>
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+
